@@ -5,6 +5,26 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-		//// Put your code here
+		boolean boyBorn = false;
+		boolean girlBorn = false;
+		int childrenCount = 0;
+		String birthLog = "";
+
+		while (!(boyBorn && girlBorn)) {
+			childrenCount++;
+			double randomNum = Math.random();
+
+			if (randomNum < 0.5) {
+				boyBorn = true;
+				birthLog += "b ";
+			}
+			else {
+				girlBorn = true;
+				birthLog += "g ";
+			}
+		}
+
+		System.out.println(birthLog);
+		System.out.println("You made it... and you now have " + childrenCount + " children.");
 	}
 }
