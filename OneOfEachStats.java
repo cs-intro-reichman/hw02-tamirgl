@@ -11,7 +11,8 @@ public class OneOfEachStats {
 	public static void main (String[] args) {
 		int T = Integer.parseInt(args[0]);
 		int seed = Integer.parseInt(args[1]);
-		Random generator = new Random(seed); 
+		Random generator = new Random(seed);
+		
 		int totalSumOfChildren = 0;
 		int count2Children = 0;
 		int count3Children = 0;
