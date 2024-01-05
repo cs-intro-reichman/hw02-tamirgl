@@ -14,5 +14,6 @@ public class Reverse {
 
 		char middleCharOfStr = str.charAt((str.length() - 1) / 2);
 		System.out.println("The middle character is " + middleCharOfStr);
+		/* very good naming */
 	}
 }
