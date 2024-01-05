@@ -20,5 +20,6 @@ public class Perfect {
 		else {
 			System.out.println(number + " is not a perfect number");
 		}
+		/* good use of string variable */
 	}
 }
